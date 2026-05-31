@@ -10,7 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +19,28 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Maven build output
+target/
+
+# Maven wrapper (optional - usually keep these, but ignore if generated locally)
+.mvn/timing.properties
+
+# IDE - VS Code
+.vscode/
+
+# Eclipse (if you ever open it there)
+.classpath
+.project
+.settings/
+
+# IntelliJ (optional safety if you ever open there)
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JVM crash logs
 hs_err_pid*
 replay_pid*
